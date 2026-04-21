@@ -7,9 +7,6 @@ projects:
       branch: main
       adr_path: docs/adr
       site_path: aggregated/project-a
-      files:
-          - 0001-use-api-gateway.md
-          - 0002-use-kubernetes-ingress-instead-of-api-gateway.md
 
     - key: project-b
       display_name: Project B
@@ -17,7 +14,3 @@ projects:
       branch: main
       adr_path: docs/adr
       site_path: aggregated/project-b
-      files:
-          - 0001-store-audit-events-in-postgresql.md
-          - 0002-use-transactional-outbox-for-event-publication.md
-
