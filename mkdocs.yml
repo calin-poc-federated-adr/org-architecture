@@ -1,0 +1,17 @@
+site_name: Federated ADR PoC
+site_description: Minimal MkDocs site for federated ADR aggregation
+repo_url: https://github.com/calin-poc-federated-adr/org-architecture
+
+theme:
+    name: mkdocs
+
+nav:
+    - Home: index.md
+    - Organization ADRs:
+          - 0001 - Federated ADR Registry: adr/0001-federated-adr-registry.md
+    - Project A: aggregated/project-a/index.md
+    - Project B: aggregated/project-b/index.md
+
+markdown_extensions:
+    - toc:
+          permalink: true
