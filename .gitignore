@@ -3,3 +3,4 @@
 site/
 __pycache__/
 *.pyc
+docs/aggregated/*/0*.md
